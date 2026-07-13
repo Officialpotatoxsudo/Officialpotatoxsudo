@@ -50,7 +50,7 @@
 
 <div align="center">
   <a href="https://github.com/Officialpotatoxsudo">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Officialpotatoxsudo&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=22d3ee&icon_color=a855f7&text_color=c9d1d9&include_all_commits=true&count_private=true&rank_icon=github" alt="stats" height="160" />
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Officialpotatoxsudo&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=22d3ee&icon_color=a855f7&text_color=c9d1d9&include_all_commits=true&rank_icon=github" alt="stats" height="160" />
   </a>
   <a href="https://github.com/Officialpotatoxsudo">
     <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Officialpotatoxsudo&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=22d3ee&text_color=c9d1d9&langs_count=8" alt="langs" height="160" />
