@@ -41,7 +41,7 @@
 <!-- ── TECH STACK ──────────────────────────────────────────── -->
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,dart,flutter,kotlin,typescript,javascript,html,css,cpp,java,rust,go,ruby,swift,postgres,docker,bash,git,linux,vscode,github&perline=10&theme=dark" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=python,kotlin,typescript,javascript,dart,flutter,go,rust,bash,docker,git,linux,vscode&perline=10&theme=dark" alt="Tech Stack" />
 </div>
 
 <br/>
@@ -83,9 +83,9 @@
   <a href="https://github.com/Officialpotatoxsudo/openclaw">
     <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Officialpotatoxsudo&repo=openclaw&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=22d3ee&text_color=c9d1d9&icon_color=a855f7" alt="openclaw" />
   </a>
-  <!-- Project 2: KrishnaPDF -->
-  <a href="https://github.com/Officialpotatoxsudo/KrishnaPdf">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Officialpotatoxsudo&repo=KrishnaPdf&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=22d3ee&text_color=c9d1d9&icon_color=a855f7" alt="KrishnaPdf" />
+  <!-- Project 2: Nist_update -->
+  <a href="https://github.com/Officialpotatoxsudo/Nist_update">
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Officialpotatoxsudo&repo=Nist_update&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=22d3ee&text_color=c9d1d9&icon_color=a855f7" alt="Nist_update" />
   </a>
 
 </div>

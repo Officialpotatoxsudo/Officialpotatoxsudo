@@ -39,11 +39,11 @@
     <text x="252" y="120" class="key">role</text>
     <text x="330" y="120" class="val">Builder · Automation · OSS</text>
     <text x="252" y="150" class="key">langs</text>
-    <text x="330" y="150" class="val">Python · Go · Bash</text>
+    <text x="330" y="150" class="val">Kotlin · Python · TS · Go</text>
     <text x="252" y="180" class="key">editor</text>
     <text x="330" y="180" class="val">VSCode</text>
     <text x="252" y="210" class="key">status</text>
-    <text x="330" y="210" class="val">backfilling the timeline ⚡</text>
+    <text x="330" y="210" class="val">building things ⚡</text>
 
   <!-- blinking cursor -->
   <text x="330" y="238" class="val" id="cur">_</text>
