@@ -63,14 +63,14 @@
 </p>
 
 <!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
-<!-- ░░ GITHUB STATS — animated cards from anuraghazra ░░░░░░ -->
+<!-- ░░ GITHUB STATS — animated stat cards (verified mirror) ░░ -->
 <!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Officialpotatoxsudo&show_icons=true&theme=tokyonight&hide_border=true&background=0d111700&title_color=22d3ee&icon_color=a855f7&text_color=c9d1d9&bg_color=00000000&card_width=320&include_all_commits=true&count_private=true&rank_icon=github&border_color=a855f733" alt="GitHub Stats" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Officialpotatoxsudo&layout=compact&theme=tokyonight&hide_border=true&background=0d111700&title_color=22d3ee&text_color=c9d1d9&bg_color=00000000&card_width=320&border_color=a855f733" alt="Top Languages" height="170" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Officialpotatoxsudo&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=22d3ee&icon_color=a855f7&text_color=c9d1d9&include_all_commits=true&count_private=true&rank_icon=github" alt="GitHub Stats" height="170" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Officialpotatoxsudo&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=22d3ee&text_color=c9d1d9" alt="Top Languages" height="170" />
 </p>
 
 <!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
@@ -78,7 +78,7 @@
 <!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Officialpotatoxsudo&theme=tokyonight&hide_border=true&background=0d1117&border=30363d&stroke=22d3ee&ring=a855f7&fire=ec4899&currStreakNum=e6edf3&sideNums=c9d1d9&currStreakLabel=8b949e&sideLabels=8b949e&dates=8b949e" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=Officialpotatoxsudo&theme=tokyonight&hide_border=true&background=0D1117&border=30363D&stroke=22D3EE&ring=A855F7&fire=EC4899&currStreakNum=E6EDF3&sideNums=C9D1D9&currStreakLabel=8B949E&sideLabels=8B949E&dates=8B949E" alt="GitHub Streak" />
 </p>
 
 <!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
@@ -89,16 +89,6 @@
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Officialpotatoxsudo&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=22d3ee&line=a855f7&point=ec4899&area=true&area_color=a855f722" alt="Activity Graph" />
-</p>
-
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
-<!-- ░░ TROPHIES — animated achievement showcase ░░░░░░░░░░░░░ -->
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
-
-### 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Officialpotatoxsudo&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="Trophies" />
 </p>
 
 <!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
