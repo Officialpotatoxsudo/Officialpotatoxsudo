@@ -1,6 +1,8 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/Officialpotatoxsudo/Officialpotatoxsudo/main/ascii-banner.svg" alt="KRIMAN" />
   <p><i>Developer crafting clean, useful software</i></p>
+  <img src="https://raw.githubusercontent.com/Officialpotatoxsudo/Officialpotatoxsudo/main/terminal.svg" alt="terminal" />
+</div>
   <p>
     <a href="https://github.com/Officialpotatoxsudo"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-Officialpotatoxsudo-181717?style=flat-square&logo=github"/></a>
     <a href="mailto:officialpotato567@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-officialpotato567@gmail.com-D14836?style=flat-square&logo=gmail"/></a>
