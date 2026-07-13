@@ -20,19 +20,18 @@
 ## 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,go,bash,git,linux,docker,github,vscode&perline=8" alt="tech stack" />
+  <img src="https://skillicons.dev/icons?i=python,dart,flutter,kotlin,typescript,javascript,html,css,cpp,java,rust,go,ruby,swift,postgres,docker,bash,git,linux,vscode,github&perline=8" alt="tech stack" />
 </p>
 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Officialpotatoxsudo&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=tokyonight&bg_color=0d1117&text_color=c9d1d9&title_color=22d3ee&icon_color=a855f7&border_color=30363d" alt="stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Officialpotatoxsudo&layout=compact&hide_border=true&count_private=true&theme=tokyonight&bg_color=0d1117&text_color=c9d1d9&title_color=22d3ee&border_color=30363d" alt="top langs" />
+  <img src="https://raw.githubusercontent.com/Officialpotatoxsudo/Officialpotatoxsudo/main/stats.svg" alt="stats" />
+  <img src="https://raw.githubusercontent.com/Officialpotatoxsudo/Officialpotatoxsudo/main/langs.svg" alt="top langs" />
 </p>
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Officialpotatoxsudo&theme=tokyonight&hide_border=true&background=0d1117&border=30363d&stroke=22d3ee&ring=a855f7&fire=ec4899&currStreakNum=e6edf3&sideNums=c9d1d9&currStreakLabel=8b949e&sideLabels=8b949e&dates=8b949e" alt="streak" />
-  <img src="https://github-profile-trophy.vercel.app/?username=Officialpotatoxsudo&theme=tokyonight&no-frame=true&column=4&margin-w=8" alt="trophies" />
 </p>
 
 <!-- Contribution snake -->

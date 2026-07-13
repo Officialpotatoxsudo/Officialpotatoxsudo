@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="350" viewBox="0 0 440 350" role="img" aria-label="Top languages">
+  <defs>
+    <linearGradient id="acc2" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#22d3ee"/><stop offset="55%" stop-color="#a855f7"/><stop offset="100%" stop-color="#ec4899"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;0 0;-1 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .title{font-family:"SFMono-Regular",Consolas,monospace;font-size:20px;font-weight:700;fill:url(#acc2);}
+    .lbl{font-family:"SFMono-Regular",Consolas,monospace;font-size:14px;fill:#c9d1d9;}
+    .pct{font-family:"SFMono-Regular",Consolas,monospace;font-size:13px;fill:#8b949e;}
+  </style>
+  <rect x="1" y="1" width="438" height="348" rx="16" fill="#0d1117" stroke="#30363d"/>
+  <rect x="1" y="1" width="438" height="6" rx="3" fill="url(#acc2)"/>
+  <text x="26" y="52" class="title">Top Languages</text>
+  <g>
+    <text x="26" y="92" class="lbl">Dart</text>
+    <rect x="150" y="77" width="250" height="12" rx="6" fill="#161b22"/>
+    <rect x="150" y="77" width="250.0" height="12" rx="6" fill="#54C5F8">
+      <animate attributeName="width" from="0" to="250.0" dur="1s" begin="0.00s" fill="freeze"/>
+    </rect>
+    <text x="408" y="92" class="pct">43.5%</text>
+  </g>
+  <g>
+    <text x="26" y="126" class="lbl">Python</text>
+    <rect x="150" y="111" width="250" height="12" rx="6" fill="#161b22"/>
+    <rect x="150" y="111" width="138.7" height="12" rx="6" fill="#3776AB">
+      <animate attributeName="width" from="0" to="138.7" dur="1s" begin="0.12s" fill="freeze"/>
+    </rect>
+    <text x="408" y="126" class="pct">21.3%</text>
+  </g>
+  <g>
+    <text x="26" y="160" class="lbl">Kotlin</text>
+    <rect x="150" y="145" width="250" height="12" rx="6" fill="#161b22"/>
+    <rect x="150" y="145" width="88.1" height="12" rx="6" fill="#A97BFF">
+      <animate attributeName="width" from="0" to="88.1" dur="1s" begin="0.24s" fill="freeze"/>
+    </rect>
+    <text x="408" y="160" class="pct">13.6%</text>
+  </g>
+  <g>
+    <text x="26" y="194" class="lbl">TypeScript</text>
+    <rect x="150" y="179" width="250" height="12" rx="6" fill="#161b22"/>
+    <rect x="150" y="179" width="72.4" height="12" rx="6" fill="#3178C6">
+      <animate attributeName="width" from="0" to="72.4" dur="1s" begin="0.36s" fill="freeze"/>
+    </rect>
+    <text x="408" y="194" class="pct">11.1%</text>
+  </g>
+  <g>
+    <text x="26" y="228" class="lbl">HTML</text>
+    <rect x="150" y="213" width="250" height="12" rx="6" fill="#161b22"/>
+    <rect x="150" y="213" width="25.2" height="12" rx="6" fill="#E34F26">
+      <animate attributeName="width" from="0" to="25.2" dur="1s" begin="0.48s" fill="freeze"/>
+    </rect>
+    <text x="408" y="228" class="pct">3.9%</text>
+  </g>
+  <g>
+    <text x="26" y="262" class="lbl">JavaScript</text>
+    <rect x="150" y="247" width="250" height="12" rx="6" fill="#161b22"/>
+    <rect x="150" y="247" width="18.1" height="12" rx="6" fill="#F7DF1E">
+      <animate attributeName="width" from="0" to="18.1" dur="1s" begin="0.60s" fill="freeze"/>
+    </rect>
+    <text x="408" y="262" class="pct">2.8%</text>
+  </g>
+  <g>
+    <text x="26" y="296" class="lbl">C++</text>
+    <rect x="150" y="281" width="250" height="12" rx="6" fill="#161b22"/>
+    <rect x="150" y="281" width="15.9" height="12" rx="6" fill="#00599C">
+      <animate attributeName="width" from="0" to="15.9" dur="1s" begin="0.72s" fill="freeze"/>
+    </rect>
+    <text x="408" y="296" class="pct">2.4%</text>
+  </g>
+  <g>
+    <text x="26" y="330" class="lbl">CMake</text>
+    <rect x="150" y="315" width="250" height="12" rx="6" fill="#161b22"/>
+    <rect x="150" y="315" width="8.9" height="12" rx="6" fill="#064F8C">
+      <animate attributeName="width" from="0" to="8.9" dur="1s" begin="0.84s" fill="freeze"/>
+    </rect>
+    <text x="408" y="330" class="pct">1.4%</text>
+  </g>
+</svg>

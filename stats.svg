@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="318" viewBox="0 0 440 318" role="img" aria-label="GitHub stats">
+  <defs>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#22d3ee"/><stop offset="55%" stop-color="#a855f7"/><stop offset="100%" stop-color="#ec4899"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;0 0;-1 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .title{font-family:"SFMono-Regular",Consolas,monospace;font-size:20px;font-weight:700;fill:url(#acc);}
+    .lbl{font-family:"SFMono-Regular",Consolas,monospace;font-size:15px;fill:#8b949e;}
+    .val{font-family:"SFMono-Regular",Consolas,monospace;font-size:17px;font-weight:700;fill:#e6edf3;}
+  </style>
+  <rect x="1" y="1" width="438" height="316" rx="16" fill="#0d1117" stroke="#30363d"/>
+  <rect x="1" y="1" width="438" height="6" rx="3" fill="url(#acc)"/>
+  <text x="26" y="52" class="title">GitHub Stats</text>
+  <g>
+    <rect x="26" y="72" width="6" height="26" rx="3" fill="#22d3ee"/>
+    <text x="46" y="92" class="lbl">Commits</text>
+    <text x="414" y="92" class="val" text-anchor="end">34</text>
+  </g>
+  <g>
+    <rect x="26" y="112" width="6" height="26" rx="3" fill="#a855f7"/>
+    <text x="46" y="132" class="lbl">Pull Requests</text>
+    <text x="414" y="132" class="val" text-anchor="end">3</text>
+  </g>
+  <g>
+    <rect x="26" y="152" width="6" height="26" rx="3" fill="#ec4899"/>
+    <text x="46" y="172" class="lbl">Issues</text>
+    <text x="414" y="172" class="val" text-anchor="end">0</text>
+  </g>
+  <g>
+    <rect x="26" y="192" width="6" height="26" rx="3" fill="#f5c518"/>
+    <text x="46" y="212" class="lbl">Stars</text>
+    <text x="414" y="212" class="val" text-anchor="end">3</text>
+  </g>
+  <g>
+    <rect x="26" y="232" width="6" height="26" rx="3" fill="#3fb950"/>
+    <text x="46" y="252" class="lbl">Repositories</text>
+    <text x="414" y="252" class="val" text-anchor="end">24</text>
+  </g>
+  <g>
+    <rect x="26" y="272" width="6" height="26" rx="3" fill="#58a6ff"/>
+    <text x="46" y="292" class="lbl">Followers</text>
+    <text x="414" y="292" class="val" text-anchor="end">1</text>
+  </g>
+</svg>
