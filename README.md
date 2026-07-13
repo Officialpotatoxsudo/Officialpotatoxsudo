@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Kriman Basnet</h1>
+  <img src="https://raw.githubusercontent.com/Officialpotatoxsudo/Officialpotatoxsudo/main/ascii-banner.svg" alt="KRIMAN" />
   <p><i>Developer crafting clean, useful software</i></p>
   <p>
     <a href="https://github.com/Officialpotatoxsudo"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-Officialpotatoxsudo-181717?style=flat-square&logo=github"/></a>

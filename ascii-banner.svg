@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 586 190" width="586" height="190" role="img" aria-label="KRIMAN">
+  <defs>
+    <linearGradient id="flow" x1="0" y1="0" x2="240" y2="0" gradientUnits="userSpaceOnUse" spreadMethod="repeat">
+
+    <stop offset="0%" stop-color="#a855f7"/>
+    <stop offset="25%" stop-color="#22d3ee"/>
+    <stop offset="50%" stop-color="#ec4899"/>
+    <stop offset="75%" stop-color="#22d3ee"/>
+    <stop offset="100%" stop-color="#a855f7"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="240 0" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <text x="293" y="46" fill="url(#flow)" font-family="'Courier New', monospace" font-size="26" font-weight="bold" text-anchor="middle" xml:space="preserve">###   ###   ###   #   #  ###  #   #</text>
+  <text x="293" y="76" fill="url(#flow)" font-family="'Courier New', monospace" font-size="26" font-weight="bold" text-anchor="middle" xml:space="preserve">## #  ## #  ###   ## ## #   # ##  #</text>
+  <text x="293" y="106" fill="url(#flow)" font-family="'Courier New', monospace" font-size="26" font-weight="bold" text-anchor="middle" xml:space="preserve">####  ###   ###   # # # ##### # # #</text>
+  <text x="293" y="136" fill="url(#flow)" font-family="'Courier New', monospace" font-size="26" font-weight="bold" text-anchor="middle" xml:space="preserve">## #  ## #  ###   #   # #   # #  ##</text>
+  <text x="293" y="166" fill="url(#flow)" font-family="'Courier New', monospace" font-size="26" font-weight="bold" text-anchor="middle" xml:space="preserve">##  # ##  # ###   #   # #   # #   #</text>
+  <text x="293" y="184" fill="#22d3ee" font-family="'Courier New', monospace" font-size="18" text-anchor="middle" font-weight="bold">
+    $ whoami
+    <tspan fill="#a855f7">_</tspan><animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite"/>
+  </text>
+</svg>
