@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="270" viewBox="0 0 820 270" role="img" aria-label="KRIMAN neofetch card">
+  <defs>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="55%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;0 0;-1 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .logo { font-family: "SFMono-Regular",Consolas,monospace; font-size:26px; font-weight:700; fill:url(#acc); }
+    .key  { font-family: "SFMono-Regular",Consolas,monospace; font-size:15px; fill:#8b949e; }
+    .val  { font-family: "SFMono-Regular",Consolas,monospace; font-size:15px; fill:#e6edf3; }
+  </style>
+
+  <rect x="1" y="1" width="818" height="268" rx="16" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+
+  <!-- left logo panel -->
+  <rect x="26" y="26" width="200" height="218" rx="12" fill="#010409" stroke="#21262d"/>
+  <rect x="26" y="26" width="200" height="6" rx="3" fill="url(#lg)"/>
+    <text x="42" y="58" class="logo">    __ __</text>
+    <text x="42" y="89" class="logo">   / //_/</text>
+    <text x="42" y="119" class="logo">  / ,<</text>
+    <text x="42" y="150" class="logo"> / /| |</text>
+    <text x="42" y="181" class="logo">/_/ |_|</text>
+
+  <!-- accent divider -->
+  <rect x="246" y="32" width="3" height="206" rx="1.5" fill="url(#acc)"/>
+
+  <!-- info -->
+    <text x="252" y="60" class="key">user</text>
+    <text x="330" y="60" class="val">kriman@github</text>
+    <text x="252" y="90" class="key">os</text>
+    <text x="330" y="90" class="val">macOS / Linux</text>
+    <text x="252" y="120" class="key">role</text>
+    <text x="330" y="120" class="val">Builder · Automation · OSS</text>
+    <text x="252" y="150" class="key">langs</text>
+    <text x="330" y="150" class="val">Python · Go · Bash</text>
+    <text x="252" y="180" class="key">editor</text>
+    <text x="330" y="180" class="val">VSCode</text>
+    <text x="252" y="210" class="key">status</text>
+    <text x="330" y="210" class="val">backfilling the timeline ⚡</text>
+
+  <!-- blinking cursor -->
+  <text x="330" y="238" class="val" id="cur">_</text>
+  <animate xlink:href="#cur" attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+</svg>
