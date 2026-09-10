@@ -1,4 +1,4 @@
-name: Update self-hosted stats
+name: Update self-hosted cards
 
 on:
   schedule:
@@ -8,6 +8,7 @@ on:
     branches: [ main ]
     paths:
       - ".github/scripts/update_stats.py"
+      - ".github/scripts/update_cards.py"
       - ".github/workflows/stats.yml"
 
 permissions:
@@ -21,19 +22,21 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Regenerate stats.svg
+      - name: Regenerate cards
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-        run: python .github/scripts/update_stats.py
+        run: |
+          python .github/scripts/update_stats.py
+          python .github/scripts/update_cards.py
       - name: Commit if changed
         run: |
-          if git diff --quiet -- stats.svg; then
-            echo "stats.svg unchanged"
+          if git diff --quiet -- stats.svg repo-openclaw.svg repo-nist_update.svg repo-slapfx_release.svg; then
+            echo "cards unchanged"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add stats.svg
-          git commit -m "chore: refresh self-hosted stats.svg"
+          git add stats.svg repo-openclaw.svg repo-nist_update.svg repo-slapfx_release.svg
+          git commit -m "chore: refresh self-hosted cards"
           git push

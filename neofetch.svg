@@ -1,28 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="820" height="292" viewBox="0 0 820 292" role="img" aria-label="KRIMAN neofetch card">
   <defs>
-    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
-      <stop offset="0%" stop-color="#22d3ee"/>
-      <stop offset="55%" stop-color="#a855f7"/>
-      <stop offset="100%" stop-color="#ec4899"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;0 0;-1 0" dur="7s" repeatCount="indefinite"/>
+    <linearGradient id="cream" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#FBF3E0"/>
+      <stop offset="55%" stop-color="#F0D9A8"/>
+      <stop offset="100%" stop-color="#D3A05F"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;0 0;-1 0" dur="9s" repeatCount="indefinite"/>
     </linearGradient>
-    <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#22d3ee"/>
-      <stop offset="100%" stop-color="#a855f7"/>
+    <linearGradient id="clg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F0D9A8"/>
+      <stop offset="100%" stop-color="#D3A05F"/>
     </linearGradient>
-    <clipPath id="card">
+    <clipPath id="ccard">
       <rect x="1" y="1" width="818" height="290" rx="16"/>
     </clipPath>
   </defs>
   <style>
-    .logo { font-family: "SFMono-Regular",Consolas,"Fira Code",monospace; font-size:25px; font-weight:700; fill:url(#acc); }
-    .key  { font-family: "SFMono-Regular",Consolas,"Fira Code",monospace; font-size:16px; fill:#8b949e; }
-    .val  { font-family: "SFMono-Regular",Consolas,"Fira Code",monospace; font-size:16px; fill:#e6edf3; }
-    .head { font-family: "SFMono-Regular",Consolas,"Fira Code",monospace; font-size:13px; fill:#8b949e; }
+    .logo { font-family: "SFMono-Regular",Consolas,"Fira Code",monospace; font-size:25px; font-weight:700; fill:url(#cream); }
+    .key  { font-family: "SFMono-Regular",Consolas,"Fira Code",monospace; font-size:16px; fill:#A89A83; }
+    .val  { font-family: "SFMono-Regular",Consolas,"Fira Code",monospace; font-size:16px; fill:#F3E9D2; }
+    .head { font-family: "SFMono-Regular",Consolas,"Fira Code",monospace; font-size:13px; fill:#6F6350; }
   </style>
 
-  <rect x="1" y="1" width="818" height="290" rx="16" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
-  <rect x="1" y="1" width="818" height="6" rx="3" fill="url(#acc)"/>
+  <rect x="1" y="1" width="818" height="290" rx="16" fill="#171310" stroke="#3D3227" stroke-width="1"/>
+  <rect x="1" y="1" width="818" height="6" rx="3" fill="url(#cream)"/>
 
   <!-- window dots -->
   <circle cx="34" cy="34" r="6" fill="#ff5f57"/>
@@ -31,8 +31,8 @@
   <text x="700" y="39" class="head">kriman — neofetch</text>
 
   <!-- left logo panel -->
-  <rect x="26" y="56" width="200" height="210" rx="12" fill="#010409" stroke="#21262d"/>
-  <rect x="26" y="56" width="200" height="5" rx="2.5" fill="url(#lg)"/>
+  <rect x="26" y="56" width="200" height="210" rx="12" fill="#0F0C09" stroke="#3D3227"/>
+  <rect x="26" y="56" width="200" height="5" rx="2.5" fill="url(#clg)"/>
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.1s" fill="freeze"/>
     <text x="48" y="96" class="logo">    __ __</text>
@@ -44,7 +44,7 @@
   </g>
 
   <!-- accent divider, slow pulse -->
-  <rect x="246" y="62" width="3" height="204" rx="1.5" fill="url(#acc)">
+  <rect x="246" y="62" width="3" height="204" rx="1.5" fill="url(#cream)">
     <animate attributeName="opacity" values="1;0.55;1" dur="3s" repeatCount="indefinite"/>
   </rect>
 
@@ -67,7 +67,7 @@
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.8s" fill="freeze"/>
     <text x="270" y="182" class="key">langs</text>
-    <text x="360" y="182" class="val">Kotlin · Python · TS · Go</text>
+    <text x="360" y="182" class="val">TS · Python · Kotlin · C++</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.95s" fill="freeze"/>
@@ -81,8 +81,8 @@
   </g>
 
   <!-- scanline sweep -->
-  <g clip-path="url(#card)" opacity="0.05">
-    <rect x="1" y="-60" width="818" height="60" fill="#ffffff">
+  <g clip-path="url(#ccard)" opacity="0.05">
+    <rect x="1" y="-60" width="818" height="60" fill="#FBF3E0">
       <animate attributeName="y" from="-60" to="292" dur="6s" repeatCount="indefinite"/>
     </rect>
   </g>

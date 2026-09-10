@@ -2,25 +2,25 @@
   <!-- self-hosted stats card · updated by .github/workflows/stats.yml · source: GitHub REST API -->
   <!-- data: stars=3 repos=4 followers=2 following=1 forks=0 open_issues=0 · updated 2026-09-10 -->
   <defs>
-    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
-      <stop offset="0%" stop-color="#22d3ee"/><stop offset="55%" stop-color="#a855f7"/><stop offset="100%" stop-color="#ec4899"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;0 0;-1 0" dur="7s" repeatCount="indefinite"/>
+    <linearGradient id="cream" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#FBF3E0"/><stop offset="55%" stop-color="#F0D9A8"/><stop offset="100%" stop-color="#D3A05F"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;0 0;-1 0" dur="9s" repeatCount="indefinite"/>
     </linearGradient>
     <clipPath id="sclip">
       <rect x="1" y="1" width="438" height="338" rx="16"/>
     </clipPath>
   </defs>
   <style>
-    .title{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:20px;font-weight:700;fill:url(#acc);}
-    .sub{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:12px;fill:#8b949e;}
-    .lbl{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:15px;fill:#8b949e;}
-    .val{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:17px;font-weight:700;fill:#e6edf3;}
+    .title{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:20px;font-weight:700;fill:url(#cream);}
+    .sub{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:12px;fill:#6F6350;}
+    .lbl{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:15px;fill:#A89A83;}
+    .val{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:17px;font-weight:700;fill:#F3E9D2;}
   </style>
-  <rect x="1" y="1" width="438" height="338" rx="16" fill="#0d1117" stroke="#30363d"/>
-  <rect x="1" y="1" width="438" height="6" rx="3" fill="url(#acc)"/>
+  <rect x="1" y="1" width="438" height="338" rx="16" fill="#171310" stroke="#3D3227"/>
+  <rect x="1" y="1" width="438" height="6" rx="3" fill="url(#cream)"/>
   <!-- shimmer sweep across the top bar -->
-  <g clip-path="url(#sclip)" opacity="0.35">
-    <rect x="-80" y="1" width="80" height="6" fill="#ffffff" opacity="0.35">
+  <g clip-path="url(#sclip)" opacity="0.4">
+    <rect x="-80" y="1" width="80" height="6" fill="#FBF3E0" opacity="0.4">
       <animate attributeName="x" from="-80" to="438" dur="4s" repeatCount="indefinite"/>
     </rect>
   </g>
@@ -31,37 +31,37 @@
   </g>
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.15s" fill="freeze"/>
-    <rect x="26" y="84" width="6" height="26" rx="3" fill="#f5c518"/>
+    <rect x="26" y="84" width="6" height="26" rx="3" fill="#F0D9A8"/>
     <text x="46" y="104" class="lbl">Stars</text>
     <text x="414" y="104" class="val" text-anchor="end" id="stars">3</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.25s" fill="freeze"/>
-    <rect x="26" y="122" width="6" height="26" rx="3" fill="#3fb950"/>
+    <rect x="26" y="122" width="6" height="26" rx="3" fill="#E7C078"/>
     <text x="46" y="142" class="lbl">Repositories</text>
     <text x="414" y="142" class="val" text-anchor="end" id="repos">4</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.35s" fill="freeze"/>
-    <rect x="26" y="160" width="6" height="26" rx="3" fill="#58a6ff"/>
+    <rect x="26" y="160" width="6" height="26" rx="3" fill="#D9A95F"/>
     <text x="46" y="180" class="lbl">Followers</text>
     <text x="414" y="180" class="val" text-anchor="end" id="followers">2</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.45s" fill="freeze"/>
-    <rect x="26" y="198" width="6" height="26" rx="3" fill="#22d3ee"/>
+    <rect x="26" y="198" width="6" height="26" rx="3" fill="#C08C4C"/>
     <text x="46" y="218" class="lbl">Following</text>
     <text x="414" y="218" class="val" text-anchor="end" id="following">1</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.55s" fill="freeze"/>
-    <rect x="26" y="236" width="6" height="26" rx="3" fill="#a855f7"/>
+    <rect x="26" y="236" width="6" height="26" rx="3" fill="#A3703D"/>
     <text x="46" y="256" class="lbl">Forks</text>
     <text x="414" y="256" class="val" text-anchor="end" id="forks">0</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.65s" fill="freeze"/>
-    <rect x="26" y="274" width="6" height="26" rx="3" fill="#ec4899"/>
+    <rect x="26" y="274" width="6" height="26" rx="3" fill="#845632"/>
     <text x="46" y="294" class="lbl">Open Issues</text>
     <text x="414" y="294" class="val" text-anchor="end" id="issues">0</text>
   </g>
