@@ -15,10 +15,10 @@
     </clipPath>
   </defs>
   <style>
-    .logo { font-family: "SFMono-Regular",Consolas,"Fira Code",monospace; font-size:25px; font-weight:700; fill:url(#cream); }
-    .key  { font-family: "SFMono-Regular",Consolas,"Fira Code",monospace; font-size:16px; fill:#A89A83; }
+    .logo { font-family: "SFMono-Regular",Consolas,"Fira Code",monospace; font-size:26px; font-weight:700; fill:#F7ECD4; }
+    .key  { font-family: "SFMono-Regular",Consolas,"Fira Code",monospace; font-size:16px; fill:#B3A488; }
     .val  { font-family: "SFMono-Regular",Consolas,"Fira Code",monospace; font-size:16px; fill:#F3E9D2; }
-    .head { font-family: "SFMono-Regular",Consolas,"Fira Code",monospace; font-size:13px; fill:#6F6350; }
+    .head { font-family: "SFMono-Regular",Consolas,"Fira Code",monospace; font-size:13px; fill:#7A6C55; }
   </style>
 
   <rect x="1" y="1" width="818" height="290" rx="16" fill="#171310" stroke="#3D3227" stroke-width="1"/>

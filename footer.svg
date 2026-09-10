@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="120" viewBox="0 0 1000 120" role="img" aria-label="footer">
+  <defs>
+    <linearGradient id="fcream" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#FBF3E0"/><stop offset="55%" stop-color="#F0D9A8"/><stop offset="100%" stop-color="#D3A05F"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;0 0;-1 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .sig{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:15px;fill:#B3A488;}
+  </style>
+  <rect x="1" y="1" width="998" height="118" rx="16" fill="#171310" stroke="#3D3227"/>
+  <path d="M0,26 q25,-12 50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0 t50,0" fill="none" stroke="url(#fcream)" stroke-width="2" opacity="0.6" transform="translate(0,4)"/>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.2s" fill="freeze"/>
+    <text x="500" y="82" class="sig" text-anchor="middle">kriman — kathmandu, np</text>
+  </g>
+</svg>

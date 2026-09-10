@@ -1,19 +1,17 @@
 <!-- ═══ KRIMAN · profile ═══
      palette cream FBF3E0 / sand F0D9A8 / bronze D3A05F · espresso 171310
-     local: neofetch.svg · stats.svg · langs.svg · repo-*.svg (stats.yml) -->
+     every card local (stats.yml + snake.yml) · only shields is third-party -->
 
 <!-- ── HEADER ─────────────────────────────────────────────── -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FBF3E0,50:F0D9A8,100:D3A05F&height=200&section=header&text=Kriman&fontSize=65&fontAlignY=38&fontColor=3A2C1C&animation=twinkling&stroke=00000000&desc=Android+%C2%B7+Automation+%C2%B7+Open+Source&descSize=16&descAlignY=55&descColor=3A2C1Ccc" alt="Kriman — Android, Automation, Open Source" width="100%" />
+  <img src="https://raw.githubusercontent.com/Officialpotatoxsudo/Officialpotatoxsudo/main/header.svg" alt="Kriman — android, automation, open source" width="100%" />
 </p>
 
-<!-- ── TYPING ─────────────────────────────────────────────── -->
+<!-- ── TERMINAL ───────────────────────────────────────────── -->
 
 <div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=400&color=E7C078&center=true&vCenter=true&repeat=true&width=600&height=45&lines=kriman%40github%3A~%24+whoami;android+%C2%B7+flutter+%C2%B7+kotlin;react+%C2%B7+three.js+%C2%B7+typescript;automation+%C2%B7+open+source" alt="kriman at github — android, flutter, react, three.js, open source" width="600" />
-  </a>
+  <img src="https://raw.githubusercontent.com/Officialpotatoxsudo/Officialpotatoxsudo/main/terminal.svg" alt="terminal: whoami, stack" width="650" />
 </div>
 
 <br/>
@@ -58,21 +56,11 @@
 
 <br/>
 
-<!-- ── STACK ──────────────────────────────────────────────── -->
+<!-- ── STACK (local CC0 glyphs — stack.svg) ───────────────── -->
 
 <div align="center">
   <h3>$ stack</h3>
-  <sub>languages</sub><br/>
-  <img src="https://skillicons.dev/icons?i=typescript,python,kotlin,cpp&theme=dark" alt="TypeScript, Python, Kotlin, C++" />
-  <br/><br/>
-  <sub>frameworks</sub><br/>
-  <img src="https://skillicons.dev/icons?i=react,threejs,flutter&theme=dark" alt="React, Three.js, Flutter" />
-  <br/><br/>
-  <sub>mobile</sub><br/>
-  <img src="https://skillicons.dev/icons?i=flutter,kotlin,react,androidstudio&theme=dark" alt="Flutter, Kotlin, React Native, Android Studio" />
-  <br/><br/>
-  <sub>ops</sub><br/>
-  <img src="https://skillicons.dev/icons?i=bash,docker,git,linux,vscode&theme=dark" alt="Bash, Docker, Git, Linux, VS Code" />
+  <img src="https://raw.githubusercontent.com/Officialpotatoxsudo/Officialpotatoxsudo/main/stack.svg" alt="TypeScript, Python, Kotlin, C++, React, Three.js, Flutter, Bash, Docker, Git, Linux, VS Code" width="650" />
 </div>
 
 <br/>
@@ -91,20 +79,13 @@
 
 <br/>
 
-<!-- ── LIVE (optional, collapsible) ───────────────────────── -->
-<!-- third-party widgets stay inside details: if they go down,
-     the profile above still renders complete -->
+<!-- ── ACTIVITY (local, real contribution data) ───────────── -->
 
 <div align="center">
-<details>
-<summary><b>$ live // streak + activity</b></summary>
-<br/>
+  <h3>$ activity</h3>
   <a href="https://github.com/Officialpotatoxsudo">
-    <img src="https://streak-stats.demolab.com/?user=Officialpotatoxsudo&hide_border=true&background=171310&border=3D3227&stroke=E7C078&ring=D3A05F&fire=E7C078&currStreakNum=F3E9D2&sideNums=A89A83&currStreakLabel=6F6350&sideLabels=6F6350&dates=6F6350" alt="Contribution streak" width="500" />
+    <img src="https://raw.githubusercontent.com/Officialpotatoxsudo/Officialpotatoxsudo/main/activity.svg" alt="Contribution activity, last 12 weeks" width="650" />
   </a>
-  <br/><br/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Officialpotatoxsudo&hide_border=true&bg_color=171310&color=E7C078&line=D3A05F&point=FBF3E0&area=true&area_color=D3A05F22" alt="Contribution activity graph" width="650" />
-</details>
 </div>
 
 <br/>
@@ -127,7 +108,7 @@
 
 <br/>
 
-<!-- ── SNAKE ──────────────────────────────────────────────── -->
+<!-- ── SNAKE (bronze palette via snake.yml) ───────────────── -->
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Officialpotatoxsudo/Officialpotatoxsudo/output/github-contribution-grid-snake-dark.svg" alt="Contribution grid snake" width="600" />
@@ -138,9 +119,5 @@
 <!-- ── FOOTER ─────────────────────────────────────────────── -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FBF3E0,50:F0D9A8,100:D3A05F&height=100&section=footer&animation=twinkling&stroke=00000000" alt="footer" width="100%" />
-</div>
-
-<div align="center">
-  <sub>kriman — kathmandu, np</sub>
+  <img src="https://raw.githubusercontent.com/Officialpotatoxsudo/Officialpotatoxsudo/main/footer.svg" alt="kriman — kathmandu, np" width="100%" />
 </div>

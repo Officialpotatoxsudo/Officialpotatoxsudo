@@ -105,8 +105,8 @@ CARD = """<svg xmlns="http://www.w3.org/2000/svg" width="440" height="168" viewB
     <clipPath id="rclip"><rect x="1" y="1" width="438" height="166" rx="16"/></clipPath>
   </defs>
   <style>
-    .t{{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:19px;font-weight:700;fill:url(#racc);}}
-    .d{{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:13px;fill:#A89A83;}}
+    .t{{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:20px;font-weight:700;fill:#F7ECD4;}}
+    .d{{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:13px;fill:#B3A488;}}
     .m{{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:13px;fill:#F3E9D2;}}
     .tag{{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:11px;fill:#D3A05F;}}
   </style>

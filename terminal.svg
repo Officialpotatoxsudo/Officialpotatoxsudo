@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="200" viewBox="0 0 680 200" role="img" aria-label="terminal">
+  <defs>
+    <linearGradient id="tcream" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#FBF3E0"/><stop offset="55%" stop-color="#F0D9A8"/><stop offset="100%" stop-color="#D3A05F"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;0 0;-1 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <clipPath id="tclip1"><rect x="26" y="58" width="85" height="24"><animate attributeName="width" values="0;0;85;85;0;0" keyTimes="0;0.022;0.067;0.911;0.933;1" dur="9s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="tclip2"><rect x="26" y="88" width="345" height="24"><animate attributeName="width" values="0;0;345;345;0;0" keyTimes="0;0.111;0.244;0.911;0.933;1" dur="9s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="tclip3"><rect x="26" y="118" width="155" height="24"><animate attributeName="width" values="0;0;155;155;0;0" keyTimes="0;0.289;0.367;0.911;0.933;1" dur="9s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="tclip4"><rect x="26" y="148" width="445" height="24"><animate attributeName="width" values="0;0;445;445;0;0" keyTimes="0;0.411;0.589;0.911;0.933;1" dur="9s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+  <style>
+    .cmd{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:16px;fill:#F3E9D2;}
+    .out{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:16px;fill:#B3A488;}
+    .pr{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:16px;font-weight:700;fill:#D3A05F;}
+    .meta{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:13px;fill:#7A6C55;}
+  </style>
+  <rect x="1" y="1" width="678" height="198" rx="16" fill="#171310" stroke="#3D3227"/>
+  <rect x="1" y="1" width="678" height="6" rx="3" fill="url(#tcream)"/>
+  <circle cx="34" cy="34" r="6" fill="#ff5f57"/>
+  <circle cx="56" cy="34" r="6" fill="#febc2e"/>
+  <circle cx="78" cy="34" r="6" fill="#28c840"/>
+  <text x="654" y="39" class="meta" text-anchor="end">kriman — zsh</text>
+
+  <g clip-path="url(#tclip1)">
+    <text x="26" y="78" class="cmd"><tspan class="pr">$ </tspan>whoami</text>
+  </g>
+  <g clip-path="url(#tclip2)">
+    <text x="26" y="108" class="out">kriman · android · automation · oss</text>
+  </g>
+  <g clip-path="url(#tclip3)">
+    <text x="26" y="138" class="cmd"><tspan class="pr">$ </tspan>stack --short</text>
+  </g>
+  <g clip-path="url(#tclip4)">
+    <text x="26" y="168" class="out">ts · py · kt · c++ · react · three.js · flutter</text>
+  </g>
+
+  <!-- per-line cursors: group blinks, rects gate visibility per typing window -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+    <rect x="110" y="62" width="10" height="18" fill="#D3A05F" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.022;0.067;0.911;0.933;1" dur="9s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="368" y="92" width="10" height="18" fill="#D3A05F" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.111;0.244;0.911;0.933;1" dur="9s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="176" y="122" width="10" height="18" fill="#D3A05F" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.289;0.367;0.911;0.933;1" dur="9s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="464" y="152" width="10" height="18" fill="#D3A05F" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.411;0.589;0.911;0.933;1" dur="9s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

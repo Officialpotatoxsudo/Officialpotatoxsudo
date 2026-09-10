@@ -9,6 +9,7 @@ on:
     paths:
       - ".github/scripts/update_stats.py"
       - ".github/scripts/update_cards.py"
+      - ".github/scripts/update_activity.py"
       - ".github/workflows/stats.yml"
 
 permissions:
@@ -29,14 +30,15 @@ jobs:
         run: |
           python .github/scripts/update_stats.py
           python .github/scripts/update_cards.py
+          python .github/scripts/update_activity.py
       - name: Commit if changed
         run: |
-          if git diff --quiet -- stats.svg repo-openclaw.svg repo-nist_update.svg repo-slapfx_release.svg; then
+          if git diff --quiet -- stats.svg activity.svg repo-openclaw.svg repo-nist_update.svg repo-slapfx_release.svg; then
             echo "cards unchanged"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add stats.svg repo-openclaw.svg repo-nist_update.svg repo-slapfx_release.svg
+          git add stats.svg activity.svg repo-openclaw.svg repo-nist_update.svg repo-slapfx_release.svg
           git commit -m "chore: refresh self-hosted cards"
           git push

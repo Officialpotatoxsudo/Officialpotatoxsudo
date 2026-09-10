@@ -11,9 +11,9 @@
     </clipPath>
   </defs>
   <style>
-    .title{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:20px;font-weight:700;fill:url(#cream);}
-    .sub{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:12px;fill:#6F6350;}
-    .lbl{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:15px;fill:#A89A83;}
+    .title{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:21px;font-weight:700;fill:#F7ECD4;}
+    .sub{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:12px;fill:#7A6C55;}
+    .lbl{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:15px;fill:#B3A488;}
     .val{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:17px;font-weight:700;fill:#F3E9D2;}
   </style>
   <rect x="1" y="1" width="438" height="338" rx="16" fill="#171310" stroke="#3D3227"/>

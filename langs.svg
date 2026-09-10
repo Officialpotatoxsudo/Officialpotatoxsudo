@@ -10,10 +10,10 @@
     </clipPath>
   </defs>
   <style>
-    .title{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:20px;font-weight:700;fill:url(#cream2);}
-    .sub{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:12px;fill:#6F6350;}
+    .title{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:21px;font-weight:700;fill:#F7ECD4;}
+    .sub{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:12px;fill:#7A6C55;}
     .lbl{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:14px;fill:#F3E9D2;}
-    .pct{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:13px;fill:#A89A83;}
+    .pct{font-family:"SFMono-Regular",Consolas,"Fira Code",monospace;font-size:13px;fill:#B3A488;}
   </style>
   <rect x="1" y="1" width="438" height="338" rx="16" fill="#171310" stroke="#3D3227"/>
   <rect x="1" y="1" width="438" height="6" rx="3" fill="url(#cream2)"/>
