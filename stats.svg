@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="440" height="340" viewBox="0 0 440 340" role="img" aria-label="GitHub stats — self-hosted">
   <!-- self-hosted stats card · updated by .github/workflows/stats.yml · source: GitHub REST API -->
-  <!-- data: stars=3 repos=4 followers=2 following=1 forks=0 open_issues=0 · updated 2026-09-10 -->
+  <!-- data: stars=3 repos=4 followers=2 following=1 forks=0 open_issues=0 · updated 2026-09-13 -->
   <defs>
     <linearGradient id="cream" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
       <stop offset="0%" stop-color="#FBF3E0"/><stop offset="55%" stop-color="#F0D9A8"/><stop offset="100%" stop-color="#D3A05F"/>
@@ -65,5 +65,5 @@
     <text x="46" y="294" class="lbl">Open Issues</text>
     <text x="414" y="294" class="val" text-anchor="end" id="issues">0</text>
   </g>
-  <text x="26" y="322" class="sub" id="updated">updated 2026-09-10 · Officialpotatoxsudo</text>
+  <text x="26" y="322" class="sub" id="updated">updated 2026-09-13 · Officialpotatoxsudo</text>
 </svg>
