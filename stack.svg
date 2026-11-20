@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="184" viewBox="0 0 620 184" role="img" aria-label="Stack: Flutter, Kotlin, Compose, React, Next, Expo for clients; TypeScript, Python, FastAPI, Fastify, Node, Go for services; Postgres, Supabase, Redis, MinIO, Prisma, Room for data; Docker, Actions, Linux, Cloudflare, Gradle, Git for ops">
+<title>Stack</title>
+<rect width="620" height="184" fill="#000000"/>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;font-size:12px;fill:#B8B8B8}
+.idx{font-size:9px;fill:#3D3D3D;letter-spacing:.06em}
+.layer{font-size:9px;fill:#6B6B6B;letter-spacing:.18em}
+.hot{fill:#FFFFFF}
+</style>
+<rect x="14" y="18" width="1" height="152" fill="#1A1A1A"/>
+<g opacity="0">
+  <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.02;0.30;0.34;1" dur="9.000s" repeatCount="indefinite"/>
+  <rect x="13" y="18" width="3" height="24" fill="#FFFFFF" opacity="0.55">
+    <animate attributeName="y" values="18;18;146;146" keyTimes="0;0.02;0.30;1" dur="9.000s" repeatCount="indefinite"/>
+  </rect>
+</g>
+  <g>
+    <line x1="0" y1="55" x2="620" y2="55" stroke="#141414"/>
+    <text class="idx" x="30" y="43">01</text>
+    <text class="layer" x="56" y="43">CLIENT</text>
+    <text class="tech" x="150" y="43">flutter · kotlin · compose · react · next · expo</text>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;0.55;0.55;0;0" keyTimes="0;0.0500;0.0611;0.1111;0.1611;1" dur="9.000s" repeatCount="indefinite"/>
+      <text class="tech hot" x="150" y="43">flutter · kotlin · compose · react · next · expo</text>
+    </g>
+  </g>
+  <g>
+    <line x1="0" y1="93" x2="620" y2="93" stroke="#141414"/>
+    <text class="idx" x="30" y="81">02</text>
+    <text class="layer" x="56" y="81">SERVER</text>
+    <text class="tech" x="150" y="81">typescript · python · fastapi · fastify · node · go</text>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;0.55;0.55;0;0" keyTimes="0;0.1250;0.1361;0.1861;0.2361;1" dur="9.000s" repeatCount="indefinite"/>
+      <text class="tech hot" x="150" y="81">typescript · python · fastapi · fastify · node · go</text>
+    </g>
+  </g>
+  <g>
+    <line x1="0" y1="131" x2="620" y2="131" stroke="#141414"/>
+    <text class="idx" x="30" y="119">03</text>
+    <text class="layer" x="56" y="119">DATA</text>
+    <text class="tech" x="150" y="119">postgres · supabase · redis · minio · prisma · room</text>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;0.55;0.55;0;0" keyTimes="0;0.2000;0.2111;0.2611;0.3111;1" dur="9.000s" repeatCount="indefinite"/>
+      <text class="tech hot" x="150" y="119">postgres · supabase · redis · minio · prisma · room</text>
+    </g>
+  </g>
+  <g>
+    <line x1="0" y1="169" x2="620" y2="169" stroke="#141414"/>
+    <text class="idx" x="30" y="157">04</text>
+    <text class="layer" x="56" y="157">OPS</text>
+    <text class="tech" x="150" y="157">docker · actions · linux · cloudflare · gradle · git</text>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;0.55;0.55;0;0" keyTimes="0;0.2750;0.2861;0.3361;0.3861;1" dur="9.000s" repeatCount="indefinite"/>
+      <text class="tech hot" x="150" y="157">docker · actions · linux · cloudflare · gradle · git</text>
+    </g>
+  </g>
+</svg>
