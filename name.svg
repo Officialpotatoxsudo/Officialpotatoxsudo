@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="781" height="162" viewBox="0 0 781 162" role="img" aria-label="Kriman">
+<title>Kriman</title>
+<defs>
+<linearGradient id="frost" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#FFFFFF"/>
+  <stop offset=".07" stop-color="#FFFFFF"/>
+  <stop offset=".34" stop-color="#FCFCFC"/>
+  <stop offset="1" stop-color="#EAEAEA"/>
+</linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2=".55" y2="1">
+  <stop offset="0" stop-color="#FFFFFF" stop-opacity=".32"/>
+  <stop offset=".45" stop-color="#FFFFFF" stop-opacity=".06"/>
+  <stop offset="1" stop-color="#000000" stop-opacity=".18"/>
+</linearGradient>
+<linearGradient id="glint" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="700" y2="140" spreadMethod="repeat">
+  <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+  <stop offset=".21" stop-color="#000000" stop-opacity="0"/>
+  <stop offset=".31" stop-color="#000000" stop-opacity="0.094"/>
+  <stop offset=".39" stop-color="#000000" stop-opacity="0.170"/>
+  <stop offset=".45" stop-color="#FFFFFF" stop-opacity="0.400"/>
+  <stop offset=".48" stop-color="#FFFFFF" stop-opacity="1.000"/>
+  <stop offset=".52" stop-color="#FFFFFF" stop-opacity="1.000"/>
+  <stop offset=".55" stop-color="#FFFFFF" stop-opacity="0.400"/>
+  <stop offset=".61" stop-color="#000000" stop-opacity="0.170"/>
+  <stop offset=".69" stop-color="#000000" stop-opacity="0.094"/>
+  <stop offset=".79" stop-color="#000000" stop-opacity="0"/>
+  <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+  <animateTransform attributeName="gradientTransform" type="translate" values="0 0;700 140" dur="11.000s" repeatCount="indefinite"/>
+</linearGradient>
+<linearGradient id="spec" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="760" y2="152" spreadMethod="repeat">
+  <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+  <stop offset=".492" stop-color="#FFFFFF" stop-opacity="0"/>
+  <stop offset=".497" stop-color="#FFFFFF" stop-opacity="0.650"/>
+  <stop offset=".503" stop-color="#FFFFFF" stop-opacity="0.650"/>
+  <stop offset=".508" stop-color="#FFFFFF" stop-opacity="0"/>
+  <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+  <animateTransform attributeName="gradientTransform" type="translate" values="760 152;0 0" dur="12.000s" repeatCount="indefinite"/>
+</linearGradient>
+<filter id="bloom" filterUnits="userSpaceOnUse" x="-160" y="-140" width="1101" height="442">
+  <feGaussianBlur stdDeviation="9"/>
+</filter>
+<filter id="glass" filterUnits="userSpaceOnUse" x="-320" y="-260" width="1421" height="682">
+  <feTurbulence type="fractalNoise" baseFrequency="0.008 0.012" numOctaves="2" seed="11" result="noise"/>
+  <feOffset in="noise" result="shift">
+    <animate attributeName="dx" values="55.0;47.6;27.5;0.0;-27.5;-47.6;-55.0;-47.6;-27.5;0.0;27.5;47.6;55.0" keyTimes="0;0.0833;0.1667;0.25;0.3333;0.4167;0.5;0.5833;0.6667;0.75;0.8333;0.9167;1" dur="16.000s" repeatCount="indefinite"/>
+    <animate attributeName="dy" values="0.0;19.0;32.9;38.0;32.9;19.0;0.0;-19.0;-32.9;-38.0;-32.9;-19.0;0.0" keyTimes="0;0.0833;0.1667;0.25;0.3333;0.4167;0.5;0.5833;0.6667;0.75;0.8333;0.9167;1" dur="16.000s" repeatCount="indefinite"/>
+  </feOffset>
+  <feDisplacementMap in="SourceGraphic" in2="shift" scale="6.5" xChannelSelector="R" yChannelSelector="G" result="warp">
+    <animate attributeName="scale" values="70.0;6.5" dur="4.200s" fill="freeze" calcMode="spline" keySplines=".37 0 .2 1"/>
+  </feDisplacementMap>
+  <feGaussianBlur in="warp" stdDeviation="0">
+    <animate attributeName="stdDeviation" values="30.0;0" dur="4.200s" fill="freeze" calcMode="spline" keySplines=".37 0 .2 1"/>
+  </feGaussianBlur>
+</filter>
+</defs>
+<rect width="781" height="162" fill="#000000"/>
+<style>
+.word{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;font-size:140.0px;font-weight:500;letter-spacing:0.160em;text-anchor:middle}
+.rim{fill:none;stroke:url(#edge);stroke-width:.8}
+</style>
+<g opacity="1">
+  <animate attributeName="opacity" values="0;1" dur="3.4s" fill="freeze" calcMode="spline" keySplines=".4 0 .2 1"/>
+  <text class="word" x="390.5" y="132.03" fill="#FFFFFF" opacity="0" filter="url(#bloom)">KRIMAN<animate attributeName="opacity" values="0;0;.12" keyTimes="0;.55;1" dur="4.200s" fill="freeze"/></text>
+  <g filter="url(#glass)">
+    <text class="word" x="390.5" y="132.03" fill="url(#frost)">KRIMAN</text>
+    <text class="word" x="390.5" y="132.03" fill="url(#glint)">KRIMAN</text>
+    <text class="word" x="390.5" y="132.03" fill="url(#spec)">KRIMAN</text>
+    <text class="word rim" x="390.5" y="132.03">KRIMAN</text>
+  </g>
+</g>
+</svg>
