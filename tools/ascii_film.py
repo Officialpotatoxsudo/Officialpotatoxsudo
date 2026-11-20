@@ -10,7 +10,7 @@ Polarity is normalised per frame: Bad Apple flips between white and black
 backgrounds, so every frame is forced onto black before it is ramped.
 
 Usage:
-    python3 tools/ascii_film.py --src badapple.mp4 --start 51 --dur 18
+    python3 tools/ascii_film.py --src badapple.mp4 --start 51 --dur 30
 """
 from __future__ import annotations
 
@@ -135,7 +135,7 @@ def main(argv):
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--src", required=True)
     p.add_argument("--start", type=float, default=51.0, help="seconds into source")
-    p.add_argument("--dur", type=float, default=18.0, help="seconds of film")
+    p.add_argument("--dur", type=float, default=30.0, help="seconds of film")
     p.add_argument("--fps", type=float, default=10.0, help="loop frame rate")
     p.add_argument("--cols", type=int, default=104)
     p.add_argument("--rows", type=int, default=26)
