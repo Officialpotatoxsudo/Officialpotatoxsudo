@@ -3,8 +3,8 @@
 <rect width="620" height="184" fill="#000000"/>
 <style>
 text{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;font-size:12px;fill:#B8B8B8}
-.idx{font-size:9px;fill:#3D3D3D;letter-spacing:.06em}
-.layer{font-size:9px;fill:#6B6B6B;letter-spacing:.18em}
+.idx{font-size:9px;fill:#474747;letter-spacing:.06em}
+.layer{font-size:9px;fill:#7C7C7C;letter-spacing:.18em}
 .hot{fill:#FFFFFF}
 </style>
 <rect x="14" y="18" width="1" height="152" fill="#1A1A1A"/>

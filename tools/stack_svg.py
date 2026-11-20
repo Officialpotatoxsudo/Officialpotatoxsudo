@@ -16,8 +16,8 @@ import os
 BG = "#000000"
 RULE = "#141414"
 RAIL = "#1A1A1A"
-DIM = "#3D3D3D"      # index
-MID = "#6B6B6B"      # layer name
+DIM = "#474747"      # index
+MID = "#7C7C7C"      # layer name
 INK = "#B8B8B8"      # tech list
 HOT = "#FFFFFF"      # scan overlay
 PULSE = "#FFFFFF"
