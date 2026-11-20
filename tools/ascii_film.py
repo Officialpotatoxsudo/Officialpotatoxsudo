@@ -9,6 +9,9 @@ static renderers (email, RSS, link previews) get a real still.
 Polarity is normalised per frame: Bad Apple flips between white and black
 backgrounds, so every frame is forced onto black before it is ramped.
 
+The clipped top row is trimmed and the grid is inset, so the film starts
+on black instead of a permanent row of glyphs against the plate edge.
+
 Usage:
     python3 tools/ascii_film.py --src badapple.mp4 --start 51 --dur 30
 """
@@ -24,6 +27,8 @@ FS = 12.0        # font-size, px
 ADV = 7.2        # monospace advance, px (0.6em)
 LH = 13.5        # line height, px
 PAD = 16         # px padding around the grid
+PAD_TOP = PAD + 4  # extra top inset: balances the top/bottom margins
+TRIM_TOP = 1     # drop the clipped first character row
 BG = "#000000"
 INK = "#FFFFFF"
 NBSP = "\u00a0"
@@ -102,10 +107,15 @@ def build(frames_rows, cols, rows, fps, out_path):
     gw, gh = cols * ADV, rows * LH
     cw, ch = gw + 2 * PAD, gh + 2 * PAD
 
+    # The top row is the clipped edge of the source crop; blanking it keeps
+    # the plate's top black instead of a permanent rule of glyphs.
+    def trimmed(fr):
+        return [""] * TRIM_TOP + fr[TRIM_TOP:]
+
     # frame 0 never animates: it is the fallback when SMIL is unavailable,
     # and every later frame repaints the black over it.
     film = "\n".join(
-        frame_group(fr, f"f{i}", "visible" if i == 0 else "hidden", i,
+        frame_group(trimmed(fr), f"f{i}", "visible" if i == 0 else "hidden", i,
                     fps, total, gw, gh)
         for i, fr in enumerate(frames_rows))
 
@@ -117,11 +127,11 @@ text{{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberati
 .still{{display:none}}
 @media (prefers-reduced-motion:reduce){{.film{{display:none}}.still{{display:block}}}}
 </style>
-<g class="film" transform="translate({PAD},{PAD})">
+<g class="film" transform="translate({PAD},{PAD_TOP})">
 {film}
 </g>
-<g class="still" transform="translate({PAD},{PAD})">
-{frame_group(frames_rows[0], "still", "visible", None, fps, total, gw, gh)}
+<g class="still" transform="translate({PAD},{PAD_TOP})">
+{frame_group(trimmed(frames_rows[0]), "still", "visible", None, fps, total, gw, gh)}
 </g>
 </svg>
 """
@@ -146,7 +156,7 @@ def main(argv):
     all_rows = [rows_of(b, a.cols, a.rows) for b in
                 frames(a.src, a.start, a.dur, a.fps, a.cols, a.rows, a.crop_y)]
     cw, ch, n, total = build(all_rows, a.cols, a.rows, a.fps, a.out)
-    glyphs = sum(len(r) for fr in all_rows for r in fr)
+    glyphs = sum(len(r) for fr in all_rows for r in fr[TRIM_TOP:])
     print(f"{a.out}: {n} frames · {total:.1f}s @ {a.fps:g}fps · "
           f"{cw:.0f}x{ch:.0f}px · {glyphs:,} glyphs · "
           f"{os.path.getsize(a.out) / 1024:.0f} KB")
